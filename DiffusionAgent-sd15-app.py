@@ -31,16 +31,16 @@ from sentence_transformers import SentenceTransformer
 from compel import Compel
 
 
-PREFIX = """DiffusionGPT is designed to be able to assist users in generating high-quality images.
+PREFIX = """DiffusionAgent is designed to be able to assist users in generating high-quality images.
 
-Human may provide some text prompts to DiffusionGPT. The input prompts will be analyzed by DiffusionGPT to select the most suitable generative model for generating images.
+Human may provide some text prompts to DiffusionAgent. The input prompts will be analyzed by DiffusionAgent to select the most suitable generative model for generating images.
 
-Overall, DiffusionGPT is a powerful image generation system that can assist in processing various forms of textual input and match them with the most suitable generative model to accomplish the generation task.
+Overall, DiffusionAgent is a powerful image generation system that can assist in processing various forms of textual input and match them with the most suitable generative model to accomplish the generation task.
 
 TOOLS:
 ------
 
-DiffusionGPT  has access to the following tools:"""
+DiffusionAgent  has access to the following tools:"""
 
 FORMAT_INSTRUCTIONS = """To use a tool, please use the following format:
 
